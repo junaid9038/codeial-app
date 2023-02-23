@@ -1,3 +1,25 @@
 <header>
-    pager header 
+    <div class="header-body">
+        <div class="name"> Codeial </div>
+        <div class="sign-in-out">
+            <% if(locals.user){ %>
+                <a href="/users/profile">
+                    <%= user.name %> 
+                </a> &nbsp
+                  <a href="/users/sign-out"> Sign-out</a>
+        
+             <% }else { %>
+              
+                     <a href="/users/sign-in"> Sign-in</a> &nbsp
+        
+               
+               
+                    <a href="/users/sign-up"> Sign-up </a>
+        
+               
+                 
+            <% } %>
+        </div>
+        
+    </div>
 </header>

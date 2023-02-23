@@ -1,0 +1,23 @@
+.footer-body {
+  width: 100%;
+  height: 50px;
+  background-color: #5cc755;
+  color: #d44828;
+  display: flex;
+}
+
+.footer-body .footer-link {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-body .footer-link a {
+  text-decoration: none;
+  color: #290a6f;
+}
+
+.footer-body .footer-link a:hover {
+  color: #ffcb47;
+}
